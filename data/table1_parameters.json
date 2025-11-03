@@ -1,0 +1,14 @@
+{
+  "EE-mod": {
+    "Gamma": 30,
+    "L_star_iso_erg_s": 3e48,
+    "E_star_iso_erg": 1e51,
+    "r_diss_cm": 1e14,
+    "E_gamma_pk_keV": 1.0,
+    "energy_band_keV": [0.3, 10.0],
+    "alpha": 0.5,
+    "beta": 2.0,
+    "xi_p": 10.0,
+    "xi_B": 0.1
+    }
+}

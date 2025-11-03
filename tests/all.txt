@@ -1,0 +1,420 @@
+
+==========================================================================================
+Running model: EE-mod
+==========================================================================================
+L_iso : 1.151e+49
+
+==========================================================================================
+Break energies
+E_nu_mu = 0.01514EeV
+E_nu_pi = 0.27913 EeV
+
+================================================================================
+MAXIMUM PROTON ENERGY CALCULATION
+================================================================================
+
+Parameters:
+  Γ           = 30
+  r_diss      = 1.000e+14 cm
+  B           = 2.921e+03 G
+  η_acc       = 1.0
+  ε_pk'       = 3.333e+01 eV (comoving)
+               = 1.000 keV (observer)
+  α, β        = 0.5, 2.0
+  A           = 1.085e+26 photons/(erg cm^3)
+
+Dynamical time t_dyn = 1.112e+02 s
+
+================================================================================
+RESULTS: MAXIMUM PROTON ENERGY
+================================================================================
+
+ε_p,max' (comoving) = 1.010e+18 eV = 1.010e+09 GeV
+E_p,max (observer)   = 30.29 EeV
+
+Timescales at E_p,max:
+  t_acc     = 3.846e+01 s
+  t_syn,p   = 5.215e+02 s
+  t_pγ      = 6.622e+01 s
+  t_dyn     = 1.112e+02 s
+  t_cool    = 3.844e+01 s
+
+Rates at E_p,max:
+  t_acc^-1   = 2.600e-02 s^-1
+  t_syn^-1   = 1.917e-03 s^-1
+  t_pγ^-1    = 1.510e-02 s^-1
+  t_dyn^-1   = 8.994e-03 s^-1
+  t_cool^-1  = 2.601e-02 s^-1
+
+Dominant cooling mechanism at Ep,max: Photomeson
+  Adiabatic   : 8.994e-03 s^-1 ( 34.6%)
+  Synchrotron : 1.917e-03 s^-1 (  7.4%)
+  Photomeson  : 1.510e-02 s^-1 ( 58.1%)
+
+Meson production efficiency f_pγ(E) = min(1, t_dyn / t_pγ(E))
+At Ep,max: f_pγ ≈ 1.000e+00
+
+================================================================================
+NEUTRINO SPECTRUM CALCULATION
+================================================================================
+
+Burst energetics:
+  E_gamma,iso = 3.838e+51 erg
+  xi_p        = 10.000
+  E_p,iso     = 3.838e+52 erg
+  d_L         = 300.000 Mpc = 9.258e+26 cm
+  t_dyn       = 1.112e+02 s
+
+dN_p/dE_p' ...
+Pion & muon suppression factors ...
+ν_mu from pion decay (pre-oscillation)...
+ν_e and ν_mu from muon decay (pre-oscillation)...
+
+================================================================================
+NEUTRINO RESULTS (after oscillations)
+================================================================================
+
+Peak ν_mu (Earth) E^2 φ at:
+  E_ν,peak ~ 2.440e+06 GeV
+  (That's 2.440e-03 EeV)
+  E^2 φ_νμ ~ 2.408e-05 erg/cm^2
+
+Peak ν_e (Earth) E^2 φ at:
+  E_ν,peak ~ 2.440e+06 GeV
+  E^2 φ_νe ~ 2.408e-05 erg/cm^2
+
+==========================================================================================
+Running model: EE-opt
+==========================================================================================
+L_iso : 3.426e+49
+
+==========================================================================================
+Break energies
+E_nu_mu = 0.00029EeV
+E_nu_pi = 0.00539 EeV
+
+================================================================================
+MAXIMUM PROTON ENERGY CALCULATION
+================================================================================
+
+Parameters:
+  Γ           = 10
+  r_diss      = 3.000e+13 cm
+  B           = 5.040e+04 G
+  η_acc       = 1.0
+  ε_pk'       = 1.000e+03 eV (comoving)
+               = 10.000 keV (observer)
+  α, β        = 0.5, 2.0
+  A           = 5.198e+25 photons/(erg cm^3)
+
+Dynamical time t_dyn = 1.001e+02 s
+
+================================================================================
+RESULTS: MAXIMUM PROTON ENERGY
+================================================================================
+
+ε_p,max' (comoving) = 8.492e+17 eV = 8.492e+08 GeV
+E_p,max (observer)   = 8.49 EeV
+
+Timescales at E_p,max:
+  t_acc     = 1.875e+00 s
+  t_syn,p   = 2.084e+00 s
+  t_pγ      = 2.297e+01 s
+  t_dyn     = 1.001e+02 s
+  t_cool    = 1.875e+00 s
+
+Rates at E_p,max:
+  t_acc^-1   = 5.333e-01 s^-1
+  t_syn^-1   = 4.799e-01 s^-1
+  t_pγ^-1    = 4.353e-02 s^-1
+  t_dyn^-1   = 9.993e-03 s^-1
+  t_cool^-1  = 5.334e-01 s^-1
+
+Dominant cooling mechanism at Ep,max: Synchrotron
+  Adiabatic   : 9.993e-03 s^-1 (  1.9%)
+  Synchrotron : 4.799e-01 s^-1 ( 90.0%)
+  Photomeson  : 4.353e-02 s^-1 (  8.2%)
+
+Meson production efficiency f_pγ(E) = min(1, t_dyn / t_pγ(E))
+At Ep,max: f_pγ ≈ 1.000e+00
+
+================================================================================
+NEUTRINO SPECTRUM CALCULATION
+================================================================================
+
+Burst energetics:
+  E_gamma,iso = 1.142e+52 erg
+  xi_p        = 10.000
+  E_p,iso     = 1.142e+53 erg
+  d_L         = 300.000 Mpc = 9.258e+26 cm
+  t_dyn       = 1.001e+02 s
+
+dN_p/dE_p' ...
+Pion & muon suppression factors ...
+ν_mu from pion decay (pre-oscillation)...
+ν_e and ν_mu from muon decay (pre-oscillation)...
+
+================================================================================
+NEUTRINO RESULTS (after oscillations)
+================================================================================
+
+Peak ν_mu (Earth) E^2 φ at:
+  E_ν,peak ~ 2.753e+03 GeV
+  (That's 2.753e-06 EeV)
+  E^2 φ_νμ ~ 7.235e-05 erg/cm^2
+
+Peak ν_e (Earth) E^2 φ at:
+  E_ν,peak ~ 2.753e+03 GeV
+  E^2 φ_νe ~ 7.235e-05 erg/cm^2
+
+==========================================================================================
+Running model: Prompt
+==========================================================================================
+L_iso : 6.088e+51
+
+==========================================================================================
+Break energies
+E_nu_mu = 0.21942EeV
+E_nu_pi = 4.04617 EeV
+
+================================================================================
+MAXIMUM PROTON ENERGY CALCULATION
+================================================================================
+
+Parameters:
+  Γ           = 1000.0
+  r_diss      = 3.000e+13 cm
+  B           = 6.718e+03 G
+  η_acc       = 1.0
+  ε_pk'       = 5.000e+02 eV (comoving)
+               = 500.000 keV (observer)
+  α, β        = 0.5, 2.0
+  A           = 3.385e+24 photons/(erg cm^3)
+
+Dynamical time t_dyn = 1.001e+00 s
+
+================================================================================
+RESULTS: MAXIMUM PROTON ENERGY
+================================================================================
+
+ε_p,max' (comoving) = 5.996e+16 eV = 5.996e+07 GeV
+E_p,max (observer)   = 59.96 EeV
+
+Timescales at E_p,max:
+  t_acc     = 9.931e-01 s
+  t_syn,p   = 1.661e+03 s
+  t_pγ      = 1.337e+02 s
+  t_dyn     = 1.001e+00 s
+  t_cool    = 9.927e-01 s
+
+Rates at E_p,max:
+  t_acc^-1   = 1.007e+00 s^-1
+  t_syn^-1   = 6.020e-04 s^-1
+  t_pγ^-1    = 7.477e-03 s^-1
+  t_dyn^-1   = 9.993e-01 s^-1
+  t_cool^-1  = 1.007e+00 s^-1
+
+Dominant cooling mechanism at Ep,max: Adiabatic
+  Adiabatic   : 9.993e-01 s^-1 ( 99.2%)
+  Synchrotron : 6.020e-04 s^-1 (  0.1%)
+  Photomeson  : 7.477e-03 s^-1 (  0.7%)
+
+Meson production efficiency f_pγ(E) = min(1, t_dyn / t_pγ(E))
+At Ep,max: f_pγ ≈ 7.483e-03
+
+================================================================================
+NEUTRINO SPECTRUM CALCULATION
+================================================================================
+
+Burst energetics:
+  E_gamma,iso = 6.088e+51 erg
+  xi_p        = 10.000
+  E_p,iso     = 6.088e+52 erg
+  d_L         = 300.000 Mpc = 9.258e+26 cm
+  t_dyn       = 1.001e+00 s
+
+dN_p/dE_p' ...
+Pion & muon suppression factors ...
+ν_mu from pion decay (pre-oscillation)...
+ν_e and ν_mu from muon decay (pre-oscillation)...
+
+================================================================================
+NEUTRINO RESULTS (after oscillations)
+================================================================================
+
+Peak ν_mu (Earth) E^2 φ at:
+  E_ν,peak ~ 3.216e+07 GeV
+  (That's 3.216e-02 EeV)
+  E^2 φ_νμ ~ 4.539e-07 erg/cm^2
+
+Peak ν_e (Earth) E^2 φ at:
+  E_ν,peak ~ 2.329e+07 GeV
+  E^2 φ_νe ~ 4.119e-07 erg/cm^2
+
+==========================================================================================
+Running model: Flare
+==========================================================================================
+L_iso : 3.473e+48
+
+==========================================================================================
+Break energies
+E_nu_mu = 0.08268EeV
+E_nu_pi = 1.52466 EeV
+
+================================================================================
+MAXIMUM PROTON ENERGY CALCULATION
+================================================================================
+
+Parameters:
+  Γ           = 30
+  r_diss      = 3.000e+14 cm
+  B           = 5.348e+02 G
+  η_acc       = 1.0
+  ε_pk'       = 1.000e+01 eV (comoving)
+               = 0.300 keV (observer)
+  α, β        = 0.5, 2.0
+  A           = 3.641e+25 photons/(erg cm^3)
+
+Dynamical time t_dyn = 3.336e+02 s
+
+================================================================================
+RESULTS: MAXIMUM PROTON ENERGY
+================================================================================
+
+ε_p,max' (comoving) = 8.033e+17 eV = 8.033e+08 GeV
+E_p,max (observer)   = 24.10 EeV
+
+Timescales at E_p,max:
+  t_acc     = 1.671e+02 s
+  t_syn,p   = 1.956e+04 s
+  t_pγ      = 3.405e+02 s
+  t_dyn     = 3.336e+02 s
+  t_cool    = 1.671e+02 s
+
+Rates at E_p,max:
+  t_acc^-1   = 5.984e-03 s^-1
+  t_syn^-1   = 5.113e-05 s^-1
+  t_pγ^-1    = 2.936e-03 s^-1
+  t_dyn^-1   = 2.998e-03 s^-1
+  t_cool^-1  = 5.985e-03 s^-1
+
+Dominant cooling mechanism at Ep,max: Adiabatic
+  Adiabatic   : 2.998e-03 s^-1 ( 50.1%)
+  Synchrotron : 5.113e-05 s^-1 (  0.9%)
+  Photomeson  : 2.936e-03 s^-1 ( 49.1%)
+
+Meson production efficiency f_pγ(E) = min(1, t_dyn / t_pγ(E))
+At Ep,max: f_pγ ≈ 9.795e-01
+
+================================================================================
+NEUTRINO SPECTRUM CALCULATION
+================================================================================
+
+Burst energetics:
+  E_gamma,iso = 1.042e+51 erg
+  xi_p        = 10.000
+  E_p,iso     = 1.042e+52 erg
+  d_L         = 300.000 Mpc = 9.258e+26 cm
+  t_dyn       = 3.336e+02 s
+
+dN_p/dE_p' ...
+Pion & muon suppression factors ...
+ν_mu from pion decay (pre-oscillation)...
+ν_e and ν_mu from muon decay (pre-oscillation)...
+
+================================================================================
+NEUTRINO RESULTS (after oscillations)
+================================================================================
+
+Peak ν_mu (Earth) E^2 φ at:
+  E_ν,peak ~ 4.641e+07 GeV
+  (That's 4.641e-02 EeV)
+  E^2 φ_νμ ~ 6.519e-06 erg/cm^2
+
+Peak ν_e (Earth) E^2 φ at:
+  E_ν,peak ~ 4.641e+07 GeV
+  E^2 φ_νe ~ 6.491e-06 erg/cm^2
+
+==========================================================================================
+Running model: Plateau
+==========================================================================================
+L_iso : 3.786e+47
+
+==========================================================================================
+Break energies
+E_nu_mu = 0.25044EeV
+E_nu_pi = 4.61812 EeV
+
+================================================================================
+MAXIMUM PROTON ENERGY CALCULATION
+================================================================================
+
+Parameters:
+  Γ           = 30
+  r_diss      = 3.000e+14 cm
+  B           = 1.766e+02 G
+  η_acc       = 1.0
+  ε_pk'       = 3.333e+00 eV (comoving)
+               = 0.100 keV (observer)
+  α, β        = 0.5, 2.0
+  A           = 3.277e+25 photons/(erg cm^3)
+
+Dynamical time t_dyn = 3.336e+02 s
+
+================================================================================
+RESULTS: MAXIMUM PROTON ENERGY
+================================================================================
+
+ε_p,max' (comoving) = 3.819e+17 eV = 3.819e+08 GeV
+E_p,max (observer)   = 11.46 EeV
+
+Timescales at E_p,max:
+  t_acc     = 2.406e+02 s
+  t_syn,p   = 3.775e+05 s
+  t_pγ      = 8.648e+02 s
+  t_dyn     = 3.336e+02 s
+  t_cool    = 2.406e+02 s
+
+Rates at E_p,max:
+  t_acc^-1   = 4.156e-03 s^-1
+  t_syn^-1   = 2.649e-06 s^-1
+  t_pγ^-1    = 1.156e-03 s^-1
+  t_dyn^-1   = 2.998e-03 s^-1
+  t_cool^-1  = 4.157e-03 s^-1
+
+Dominant cooling mechanism at Ep,max: Adiabatic
+  Adiabatic   : 2.998e-03 s^-1 ( 72.1%)
+  Synchrotron : 2.649e-06 s^-1 (  0.1%)
+  Photomeson  : 1.156e-03 s^-1 ( 27.8%)
+
+Meson production efficiency f_pγ(E) = min(1, t_dyn / t_pγ(E))
+At Ep,max: f_pγ ≈ 3.857e-01
+
+================================================================================
+NEUTRINO SPECTRUM CALCULATION
+================================================================================
+
+Burst energetics:
+  E_gamma,iso = 1.136e+51 erg
+  xi_p        = 10.000
+  E_p,iso     = 1.136e+52 erg
+  d_L         = 300.000 Mpc = 9.258e+26 cm
+  t_dyn       = 3.336e+02 s
+
+dN_p/dE_p' ...
+Pion & muon suppression factors ...
+ν_mu from pion decay (pre-oscillation)...
+ν_e and ν_mu from muon decay (pre-oscillation)...
+
+================================================================================
+NEUTRINO RESULTS (after oscillations)
+================================================================================
+
+Peak ν_mu (Earth) E^2 φ at:
+  E_ν,peak ~ 1.557e+08 GeV
+  (That's 1.557e-01 EeV)
+  E^2 φ_νμ ~ 1.972e-06 erg/cm^2
+
+Peak ν_e (Earth) E^2 φ at:
+  E_ν,peak ~ 1.325e+08 GeV
+  E^2 φ_νe ~ 1.884e-06 erg/cm^2
