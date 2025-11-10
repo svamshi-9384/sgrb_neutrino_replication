@@ -111,7 +111,9 @@ where
 ( N_\mu = \int \phi_\nu(E_\nu) A_{\text{eff}}(E_\nu) , dE_\nu )
 using effective areas from `IC86_I_effectiveArea.csv`.
 
+### Application to GRB170817A
 
+Change parameters in Initial_params.py, then substitute the outputs to eemod.py and sec3.py.
 
 ## 🧠 Physics Summary
 
@@ -150,4 +152,5 @@ Email: [svamshi9384@gmail.com](mailto:svamshi9384@gmail.com)
 GitHub: [@svamshi-9384](https://github.com/svamshi-9384)
 
 ---
+
 
