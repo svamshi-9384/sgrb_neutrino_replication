@@ -114,6 +114,7 @@ using effective areas from `IC86_I_effectiveArea.csv`.
 ### Application to GRB170817A
 
 Change parameters in Initial_params.py, then substitute the outputs to eemod.py and sec3.py.
+Do for both off-axis and on-axis.
 
 ## 🧠 Physics Summary
 
@@ -131,7 +132,6 @@ Change parameters in Initial_params.py, then substitute the outputs to eemod.py 
 ## 🧩 Future Work
 
 * Extend to **full GEANT4 photomeson cross-section**.
-* Apply framework to **GW170817 / GRB 170817A** for off-axis detectability estimates.
 * Publish extended results as a **full AAS paper** (2026 target).
 
 ---
@@ -152,5 +152,6 @@ Email: [svamshi9384@gmail.com](mailto:svamshi9384@gmail.com)
 GitHub: [@svamshi-9384](https://github.com/svamshi-9384)
 
 ---
+
 
 
