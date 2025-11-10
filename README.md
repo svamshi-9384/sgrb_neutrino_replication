@@ -144,6 +144,16 @@ Kimura, S. S., Murase, K., & Mészáros, P. (2017).
 
 ---
 
+---
+## 📦 Citation
+
+If you use or build on this code, please cite:
+
+Allada, S. V. (2025). *SGRB Neutrino Reproduction (v1.0): Kimura et al. (2017) Framework and Application to GRB 170817A*.  
+Zenodo. https://doi.org/10.5281/zenodo.17569170
+---
+
+
 ## 👤 Author
 
 **Surya Vamshi Allada**
@@ -152,6 +162,7 @@ Email: [svamshi9384@gmail.com](mailto:svamshi9384@gmail.com)
 GitHub: [@svamshi-9384](https://github.com/svamshi-9384)
 
 ---
+
 
 
 
